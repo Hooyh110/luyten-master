@@ -2,7 +2,7 @@
 #set -x
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-pkgdir="/Users/hoo-pro/hoo-PRO/software/Luyten-master/target"
+pkgdir="${luyten_dir}"
 function help(){
     echo "start java-jar"
 }
@@ -23,7 +23,7 @@ function start(){
 }
 
 case "$1" in
-  flow)
+  help)
     help
   ;;
   start)
