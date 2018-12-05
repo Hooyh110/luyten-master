@@ -2,7 +2,7 @@
 #set -x
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
-pkgdir="${luyten_dir}"
+pkgdir="${luyten_dir}/luyten-master/target/"
 function help(){
     echo "start java-jar"
 }
